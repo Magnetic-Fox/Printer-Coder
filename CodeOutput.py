@@ -82,3 +82,6 @@ else:
                         except KeyError:
                                 print("Code not found: "+sys.argv[x],
                                       file=sys.stderr)
+                        except:
+                                print("Unknown error occured: "+sys.argv[x],
+                                      file=sys.stderr)
